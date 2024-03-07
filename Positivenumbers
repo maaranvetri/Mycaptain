@@ -1,0 +1,12 @@
+n=int(input("Enter no of elements:"))
+L=[]
+for i in range(n):
+    a=int(input())
+    L.append(a)
+for i in L:
+    if i<0:
+       continue
+    else:
+       print(i)
+    
+    
