@@ -3,10 +3,11 @@ L=[]
 for i in range(n):
     a=int(input())
     L.append(a)
+L1=[]
 for i in L:
     if i<0:
        continue
     else:
-       print(i)
-    
+       L1.append(i)
+ print(L1)   
     
